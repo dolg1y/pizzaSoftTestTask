@@ -1,0 +1,43 @@
+.Objectives {
+  width: 99%;
+  height: max-content;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 24px;
+  gap: 16px;
+  & .ObjectivesTitle {
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+    & .Priority {
+      padding: 6px 10px;
+      border: 1px solid var(--color-text-primary);
+      border-radius: 50px;
+    }
+  }
+  & .ObjectivesBody {
+    flex-direction: column;
+    gap: 4px;
+    & .DateRange {
+      align-items: center;
+      gap: 8px;
+    }
+  }
+  & .ObjectiveFooter {
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.ObjectivesRed {
+  background: var(--color-red);
+}
+.ObjectivesGreen {
+  background: var(--color-green);
+}
+.ObjectivesBlue {
+  background: var(--color-blue);
+}
+.ObjectivesOrange {
+  background: var(--color-orange);
+}

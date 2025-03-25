@@ -1,0 +1,25 @@
+.GarageFilter__Header {
+  align-items: center;
+  justify-content: space-between;
+}
+.GarageFilter__info {
+  height: 112px;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #fbfbfc08;
+  border: 1px solid #fbfbfc0f;
+  width: 50%;
+  margin: 20px 0px;
+}
+
+.GarageFilter__Numbers {
+  display: flex;
+  justify-content: flex-end;
+
+  & > div {
+    align-self: flex-end;
+  }
+}

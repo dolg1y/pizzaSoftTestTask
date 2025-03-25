@@ -1,0 +1,56 @@
+:root {
+  --main-color-background: #ffffff08;
+  --second-color-background: #ffffff0d;
+  --color-green-hover: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.05)
+    ),
+    linear-gradient(180deg, #b9ff66 48.93%, #6f993d 100%);
+
+  --color-text-primary: #ffffff;
+  --color-text-second: #ffffff99;
+  --color-text-third: #b9ff66;
+  --color-text-red: #c55050;
+  --color-red: linear-gradient(103.51deg, #d04343 0%, #861d1d 96.64%);
+  --color-blue: linear-gradient(102.96deg, #314ec4 0%, #1b2550 100%);
+  --color-orange: linear-gradient(102.96deg, #e86c25 0%, #6c3210 100%);
+  --color-green: linear-gradient(102.96deg, #44a269 0%, #21402d 100%);
+  --color-black: #191e2c;
+}
+
+$breakpoint-xs: 320px;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+@mixin respond-to-xs {
+  @media (max-width: $breakpoint-xs) {
+    @content;
+  }
+}
+
+@mixin respond-to-sm {
+  @media (max-width: $breakpoint-sm) {
+    @content;
+  }
+}
+
+@mixin respond-to-md {
+  @media (max-width: $breakpoint-md) {
+    @content;
+  }
+}
+
+@mixin respond-to-lg {
+  @media (max-width: $breakpoint-lg) {
+    @content;
+  }
+}
+
+@mixin respond-to-xl {
+  @media (max-width: $breakpoint-xl) {
+    @content;
+  }
+}

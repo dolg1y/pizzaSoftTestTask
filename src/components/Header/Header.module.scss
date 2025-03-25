@@ -1,0 +1,26 @@
+header {
+  display: flex;
+  gap: 0.8rem;
+}
+.Logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 60px;
+  border-radius: 16px;
+  background: #efefef;
+}
+.buttonChat {
+  min-width: 54px !important;
+  width: 54px;
+  height: 54px;
+  border-radius: 50% !important;
+  background: #f5f5f5 !important;
+  padding: 0 !important;
+}
+.DateHr {
+  height: 36px;
+  width: 1px;
+  background-color: var(--gray-color);
+}

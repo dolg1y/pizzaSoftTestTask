@@ -1,0 +1,25 @@
+.Table {
+  padding: 24px;
+  background-color: var(--second-color-background);
+  border-radius: 20px;
+}
+.TableRow {
+  th {
+    padding: 12px;
+    text-align: left;
+    color: #ffffff80;
+    font-weight: 600;
+    border-bottom: 1px solid #ffffff1a;
+  }
+  th:last-child {
+    text-align: right;
+  }
+}
+.TableCell {
+  padding: 0px 12px 0px 12px;
+  border-bottom: 1px solid #ffffff1a;
+  div {
+    font-size: 16px;
+    font-weight: 600;
+  }
+}

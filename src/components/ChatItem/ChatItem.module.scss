@@ -1,0 +1,9 @@
+.Chat {
+  width: 54px;
+  height: 54px;
+  align-items: center;
+  justify-content: center;
+  background: var(--second-color-background);
+  backdrop-filter: blur(50px);
+  border-radius: 50%;
+}

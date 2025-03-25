@@ -1,0 +1,34 @@
+.ObjectiveListContainer {
+  display: grid;
+  gap: 8px;
+  overflow-y: scroll;
+  width: 100%;
+  height: 700px;
+
+  &::-webkit-scrollbar-button {
+    display: none;
+  }
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #ffffff12;
+    border-radius: 4px;
+    padding: 10px 0;
+  }
+
+  /* Ползунок */
+  &::-webkit-scrollbar-thumb {
+    background: #b9ff66;
+    border-radius: 4px;
+    margin: 6px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Пройденная часть */
+  &::-webkit-scrollbar-track-piece:start {
+    background: rgba(185, 255, 102, 0.4);
+  }
+}

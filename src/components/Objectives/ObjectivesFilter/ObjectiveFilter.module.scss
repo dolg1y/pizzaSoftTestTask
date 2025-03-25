@@ -1,0 +1,23 @@
+.ObjectiveFilter {
+  width: 495px;
+  padding: 24px;
+  background: var(--second-color-background);
+  border-radius: 24px;
+  flex-direction: column;
+  gap: 24px;
+  height: 100%;
+  & .Filter {
+    flex-direction: column;
+    gap: 8px;
+  }
+  & .FilterCategory {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+.Button {
+  background: var(--color-green-hover);
+  border: none;
+  gap: 8px;
+  width: 100%;
+}

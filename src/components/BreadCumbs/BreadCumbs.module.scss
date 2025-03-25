@@ -1,0 +1,10 @@
+.BreadCumb {
+  margin-left: 30px;
+  margin-bottom: 40px;
+  flex-direction: column;
+  &__link {
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+  }
+}

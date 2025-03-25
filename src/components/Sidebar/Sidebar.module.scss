@@ -1,0 +1,17 @@
+.SidebarItem {
+  width: max-content;
+  height: 58px;
+  padding: 0rem;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  background: var(--second-color-background);
+}
+
+.routerIcon {
+  justify-content: center;
+  align-items: center;
+}
+
+.routerIcon path {
+  fill: #ffffff;
+}
